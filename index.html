@@ -2,95 +2,203 @@
 
 <html>
   <head>
-    <title>LED</title>
+    <title>Evolutionary Design</title>
     <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"> 
     <meta name="description" content="Laboratory of Evolutionary Design">
     <meta name="keywords" content="laboratory of evolutionary design, institute x, machine learning, ai, biology">
     <meta name="author" content="Brian Hie">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="ledlab.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
   </head>
 
   <body>
 
     <div class="navbar">
-        <ul>
-            <li><a href="/team">Team</a></li>
-            <li><a href="/publications">Publications</a></li>
-            <li><a href="/about">About</a></li>
-        </ul>
+      <div class="navbar-logo">
+        <a href="">
+          <img src="logo.svg">
+        </a>
+      </div>
+      <div class="navbar-links">
+        <li><a href="team">Team</a></li>
+        <li><a href="publications">Publications</a></li>
+        <li><a href="about">About</a></li>
+      </div>
+
+      <div class="menu-container">
+        <div id="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="dropdown" class="dropdown-content">
+            <a href="page1.html">Page 1</a>
+            <a href="page2.html">Page 2</a>
+            <a href="page3.html">Page 3</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+      
     </div>
 
-    
-    <div class="container">
-      
-      <div class="title1">
-        <p>
-	  Laboratory of Evolutionary Design
-        </p>
+
+    <div class="outer-container">
+      <div class="container">
+        
+        <div class="title1">
+          <p>
+	    Laboratory of Evolutionary Design
+          </p>
+        </div>
+        <div class="subtitle1">
+          <p>
+            Aligning biological AI with human good at <a href="">Institute X</a>
+          </p>
+        </div>
+        
+
+        <div class="title2">
+          <p>
+	    Research
+          </p>
+        </div>
+
+        <div class="subtitle2">
+          <p>
+	    In only a few months, SARS-CoV-2 evolution defeated all of our antibody drugs. <br/>
+	    Advances in AI enable biological design capabilities beyond natural evolution. <br/>
+	    We must build biological AI that is aligned with human health and safety.
+          </p>
+        </div>
+
+        <div class="banner-row">
+
+	  <div class="banner-column">
+	    <img src="multicolored.png"  class="img-banner">
+            <p class="title3">
+	      Learning from nature
+            </p>
+            <p class="text1">
+	      Human immunity is much more resilient than our antibody drugs.
+	      Learning how the immune system balances short-term protection and long-term adaptability is critical to designing robust therapeutics.
+            </p>
+	  </div>
+
+	  <div class="banner-column">
+	    <img src="hills.png"  class="img-banner">
+            <p class="title3">
+	      Accelerating evolution
+            </p>
+            <p class="text1">
+	      Evolution is a powerful force, as well as a powerful adversary.
+	      By learning evolutionary rules from data, machine learning provides a way to harness this force for our benefit.
+            </p>
+	  </div>
+	  
+	  <div class="banner-column" style="padding-right: 0px;">
+	    <img src="light_and_dark.png"  class="img-banner">
+            <p class="title3" style="margin-right: 0px;">
+	      Safe biological AI
+            </p>
+            <p class="text1" style="margin-right: 0px;">
+	      Current drug design is outcompeted by natural evolution.
+	      Generative models must enable researchers to rapidly deploy countermeasures against harmful biology.
+            </p>
+	  </div>
+
+        </div>
+
+        <div class="title2">
+          <p>
+	    Progress
+          </p>
+        </div>
+
+        <div class="subtitle2" style="margin-bottom: 25px;">
+          <p>
+            Some of our research is described in the selected publications below.
+          </p>
+        </div>
+
+        <a href="https://www.science.org/doi/10.1126/science.abd7331" class="publication">
+          <div class="publication-img">
+            <img src="viral-escape.png">
+          </div>
+          <div class="publication-content">
+            <div class="publication-title">Learning the language of viral evolution and escape</div>
+            <div class="publication-description">Understanding viral evolution</div>
+          </div>
+        </a>
+
+        <a href="https://www.sciencedirect.com/science/article/pii/S2405471222000382" class="publication">
+          <div class="publication-img">
+            <img src="evo-velocity.png">
+          </div>
+          <div class="publication-content">
+            <div class="publication-title">Evolutionary velocity with protein language models predicts evolutionary dynamics of diverse proteins</div>
+            <div class="publication-description">Modeling long-term evolution</div>
+          </div>
+        </a>
+
+        <a href="https://www.nature.com/articles/s41587-023-01763-2" class="publication">
+          <div class="publication-img">
+            <img src="efficient-evolution.png">
+          </div>
+          <div class="publication-content">
+            <div class="publication-title">Efficient evolution of human antibodies from general protein language models</div>
+            <div class="publication-description">Making better antibodies</div>
+          </div>
+        </a>
+
+        <a href="https://www.science.org/doi/10.1126/science.ade2574" class="publication">
+          <div class="publication-img">
+            <img src="evo-scale.png" alt="Image 2">
+          </div>
+          <div class="publication-content">
+            <div class="publication-title">Evolutionary-scale prediction of atomic-level protein structure with a language model</div>
+            <div class="publication-description">Exploring structural diversity at a proteome scale</div>
+          </div>
+        </a>
+
+        <a href="https://www.biorxiv.org/content/10.1101/2022.12.21.521526v1" class="publication" style="border-bottom-style: none;">
+          <div class="publication-img">
+            <img src="protein-pl.png" alt="Image 2">
+          </div>
+          <div class="publication-content">
+            <div class="publication-title">A high-level programming language for generative protein design</div>
+            <div class="publication-description">Controllable and modular biological design</div>
+          </div>
+        </a>
+
+        <a href="publications.html" class="publication-button">View all publications</a>
+        
+        <footer>
+          <div class="footer-content">
+            <p>Laboratory of Evolutionary Design</p>
+          </div>
+          <div class="footer-content">
+            <a href="">Institute X</a>
+          </div>
+          <!--div class="footer-content">
+              <a href="">Arc Institute</a>
+      </div-->
+      <div class="footer-content">
+        <a href="https://github.com/brianhie">GitHub</a>
       </div>
-      
-
-      <div class="title2">
-        <p>
-	  Research
-        </p>
+      <div class="footer-content">
+        <a href="https://scholar.google.com/citations?user=qT3feHIAAAAJ&hl=en">Google Scholar</a>
       </div>
-
-      <div class="subtitle1">
-        <p>
-	  In only a few months, SARS-CoV-2 evolution defeated all of our antibody drugs. <br/>
-	  Advances in AI enable biological design capabilities beyond those of natural evolution. <br/>
-	  We are focused on building biological AI that is aligned with human health and safety.
-        </p>
+      <div class="footer-content">
+        <a href="https://twitter.com/BrianHie">Twitter</a>
       </div>
+    </footer>
 
-      <div class="banner_row">
-
-	<div class="banner_column">
-	  <img src="multicolored.png"  class="img_banner">
-          <p class="title3">
-	    Learning from nature
-          </p>
-          <p class="text1">
-	    Human immunity is much more resilient than our antibody drugs.
-	    Learning how the immune system balances short-term protection and long-term adaptability is critical to designing robust therapeutics.
-          </p>
-	</div>
-
-	<div class="banner_column">
-	  <img src="hills.png"  class="img_banner">
-          <p class="title3">
-	    Accelerating evolution
-          </p>
-          <p class="text1">
-	    Evolution is a powerful force, as well as a powerful adversary.
-	    By learning evolutionary rules from data, machine learning provides a way to harness this force for our benefit.
-          </p>
-	</div>
-	
-	<div class="banner_column">
-	  <img src="light_and_dark.png"  class="img_banner">
-          <p class="title3">
-	    Safe biological AI
-          </p>
-          <p class="text1">
-	    Current drug design is outcompeted by natural evolution.
-	    Generative AI should be directed to helping researchers rapidly deploy countermeasures against harmful biology.
-          </p>
-	</div>
-
-      </div>
-
-      <div class="title2">
-        <p>
-	  Publications
-        </p>
-      </div>
-    
+    </div>
     </div>
   </body>
 </html>
