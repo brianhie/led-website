@@ -1,5 +1,5 @@
 .container {
-    max-width: 1000px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -167,7 +167,7 @@ p {
     color: black;
     text-decoration: none;
     font-family: "Roboto", "Arial", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
 }
 
@@ -340,6 +340,12 @@ p {
     justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+    .team-container {
+        display: grid;
+    }
+}
+
 .team-text {
     text-align: left;
     font-size: 18px;
@@ -354,6 +360,12 @@ p {
 .team-text-block {
     flex: 1;
     padding-right: 70px;
+}
+
+@media (max-width: 768px) {
+    .team-text-block {
+        padding-right: 10px;
+    }
 }
 
 .team-text-block a {
@@ -374,6 +386,12 @@ p {
     width: 100%;
     height: auto;
     padding-top: 140px;
+}
+
+@media (max-width: 768px) {
+    .team-image-block img {
+        padding-top: 80px;
+    }
 }
 
 footer {
