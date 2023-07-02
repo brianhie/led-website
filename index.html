@@ -13,37 +13,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="ledlab.css">
-    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
   </head>
 
   <body>
 
     <div class="navbar">
-      <div class="navbar-logo">
-        <a href="">
-          <img src="logo.svg">
-        </a>
-      </div>
-      <div class="navbar-links">
-        <li><a href="team">Team</a></li>
-        <li><a href="publications">Publications</a></li>
-        <li><a href="about">About</a></li>
-      </div>
+      <a href="index.html" class="navbar-logo">
+        <img src="images/logo.svg">
+      </a>
+
+      <ul class="navbar-list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="join.html">Join us</a></li>
+      </ul>      
 
       <div class="menu-container">
         <div id="hamburger-menu">
-            <span></span>
-            <span></span>
-            <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
         <div id="dropdown" class="dropdown-content">
-            <a href="page1.html">Page 1</a>
-            <a href="page2.html">Page 2</a>
-            <a href="page3.html">Page 3</a>
+          <a href="about.html">About</a>
+          <a href="publications.html">Publications</a>
+          <a href="team.html">Team</a>
+          <a href="join.html">Join us</a>
         </div>
-    </div>
-    <script src="script.js"></script>
-      
+      </div>
+      <script src="ledlab.js"></script>      
     </div>
 
 
@@ -79,7 +79,7 @@
         <div class="banner-row">
 
 	  <div class="banner-column">
-	    <img src="multicolored.png"  class="img-banner">
+	    <img src="images/multicolored.png"  class="img-banner">
             <p class="title3">
 	      Learning from nature
             </p>
@@ -90,7 +90,7 @@
 	  </div>
 
 	  <div class="banner-column">
-	    <img src="hills.png"  class="img-banner">
+	    <img src="images/hills.png"  class="img-banner">
             <p class="title3">
 	      Accelerating evolution
             </p>
@@ -101,12 +101,12 @@
 	  </div>
 	  
 	  <div class="banner-column" style="padding-right: 0px;">
-	    <img src="light_and_dark.png"  class="img-banner">
+	    <img src="images/light_and_dark.png"  class="img-banner">
             <p class="title3" style="margin-right: 0px;">
 	      Safe biological AI
             </p>
             <p class="text1" style="margin-right: 0px;">
-	      Current drug design is outcompeted by natural evolution.
+	      Current drug design is already outcompeted by natural evolution.
 	      Generative models must enable researchers to rapidly deploy countermeasures against harmful biology.
             </p>
 	  </div>
@@ -125,9 +125,19 @@
           </p>
         </div>
 
+        <a href="https://www.nature.com/articles/s41587-023-01763-2" class="publication">
+          <div class="publication-img">
+            <img src="images/efficient-evolution.png">
+          </div>
+          <div class="publication-content">
+            <div class="publication-title">Efficient evolution of human antibodies from general protein language models</div>
+            <div class="publication-description">Making better antiviral antibodies</div>
+          </div>
+        </a>
+
         <a href="https://www.science.org/doi/10.1126/science.abd7331" class="publication">
           <div class="publication-img">
-            <img src="viral-escape.png">
+            <img src="images/viral-escape.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Learning the language of viral evolution and escape</div>
@@ -135,9 +145,19 @@
           </div>
         </a>
 
+        <a href="https://www.biorxiv.org/content/10.1101/2022.12.21.521526v1" class="publication" style="border-bottom-style: none;">
+          <div class="publication-img">
+            <img src="images/protein-pl.png" alt="Image 2">
+          </div>
+          <div class="publication-content">
+            <div class="publication-title">A high-level programming language for generative protein design</div>
+            <div class="publication-description">Controllable and modular biological design</div>
+          </div>
+        </a>
+
         <a href="https://www.sciencedirect.com/science/article/pii/S2405471222000382" class="publication">
           <div class="publication-img">
-            <img src="evo-velocity.png">
+            <img src="images/evo-velocity.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Evolutionary velocity with protein language models predicts evolutionary dynamics of diverse proteins</div>
@@ -145,33 +165,13 @@
           </div>
         </a>
 
-        <a href="https://www.nature.com/articles/s41587-023-01763-2" class="publication">
-          <div class="publication-img">
-            <img src="efficient-evolution.png">
-          </div>
-          <div class="publication-content">
-            <div class="publication-title">Efficient evolution of human antibodies from general protein language models</div>
-            <div class="publication-description">Making better antibodies</div>
-          </div>
-        </a>
-
         <a href="https://www.science.org/doi/10.1126/science.ade2574" class="publication">
           <div class="publication-img">
-            <img src="evo-scale.png" alt="Image 2">
+            <img src="images/evo-scale.png" alt="Image 2">
           </div>
           <div class="publication-content">
             <div class="publication-title">Evolutionary-scale prediction of atomic-level protein structure with a language model</div>
             <div class="publication-description">Exploring structural diversity at a proteome scale</div>
-          </div>
-        </a>
-
-        <a href="https://www.biorxiv.org/content/10.1101/2022.12.21.521526v1" class="publication" style="border-bottom-style: none;">
-          <div class="publication-img">
-            <img src="protein-pl.png" alt="Image 2">
-          </div>
-          <div class="publication-content">
-            <div class="publication-title">A high-level programming language for generative protein design</div>
-            <div class="publication-description">Controllable and modular biological design</div>
           </div>
         </a>
 

@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Evolutionary Design</title>
+    <title>Publications | Evolutionary Design</title>
     <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"> 
     <meta name="description" content="Laboratory of Evolutionary Design">
     <meta name="keywords" content="laboratory of evolutionary design, institute x, machine learning, ai, biology">
@@ -13,23 +13,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="ledlab.css">
-    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
   </head>
 
   <body>
 
     <div class="navbar">
       <a href="index.html" class="navbar-logo">
-        <img src="logo.svg">
+        <img src="images/logo.svg">
         <p class="navbar-name">Evolutionary <br/> Design</p>
       </a>
-      <div class="navbar-links">
-        <li><a href="team">Team</a></li>
-        <li><a href="publications">Publications</a></li>
-        <li><a href="about">About</a></li>
-      </div>
-    </div>
 
+      <ul class="navbar-list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="join.html">Join us</a></li>
+      </ul>      
+
+      <div class="menu-container">
+        <div id="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div id="dropdown" class="dropdown-content">
+          <a href="about.html">About</a>
+          <a href="publications.html">Publications</a>
+          <a href="team.html">Team</a>
+          <a href="join.html">Join us</a>
+        </div>
+      </div>
+      <script src="ledlab.js"></script>      
+    </div>
 
     <div class="outer-container">
       <div class="container">
@@ -42,7 +58,7 @@
 
         <div class="subtitle2" style="font-size: 18px;">
           <p>
-            * Equal contribution. <sup>&#8224;</sup> Corresponding author.
+            *Equal contribution. <sup>&#8224;</sup>Corresponding author.
           </p>
         </div>
 
@@ -54,7 +70,7 @@
         
         <a href="https://www.biorxiv.org/content/10.1101/2022.12.21.521526v1" class="publication">
           <div class="publication-img">
-            <img src="protein-pl.png" alt="Image 2">
+            <img src="images/protein-pl.png" alt="Image 2">
           </div>
           <div class="publication-content">
             <div class="publication-title">A high-level programming language for generative protein design</div>
@@ -65,7 +81,7 @@
 
         <a href="https://www.nature.com/articles/s41587-023-01763-2" class="publication">
           <div class="publication-img">
-            <img src="efficient-evolution.png">
+            <img src="images/efficient-evolution.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Efficient evolution of human antibodies from general protein language models</div>
@@ -76,7 +92,7 @@
 
         <a href="https://www.science.org/doi/10.1126/science.ade2574" class="publication">
           <div class="publication-img">
-            <img src="evo-scale.png" alt="Image 2">
+            <img src="images/evo-scale.png" alt="Image 2">
           </div>
           <div class="publication-content">
             <div class="publication-title">Evolutionary-scale prediction of atomic-level protein structure with a language model</div>
@@ -93,7 +109,7 @@
         
         <a href="https://www.sciencedirect.com/science/article/pii/S2405471222000382" class="publication">
           <div class="publication-img">
-            <img src="evo-velocity.png">
+            <img src="images/evo-velocity.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Evolutionary velocity with protein language models predicts evolutionary dynamics of diverse proteins</div>
@@ -104,7 +120,7 @@
 
         <a href="https://www.science.org/doi/10.1126/scitranslmed.abk3445" class="publication">
           <div class="publication-img">
-            <img src="mutational-drivers.png">
+            <img src="images/mutational-drivers.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Predicting the mutational drivers of future SARS-CoV-2 variants of concern</div>
@@ -115,7 +131,7 @@
         
         <a href="https://www.sciencedirect.com/science/article/pii/S0959440X21001457" class="publication">
           <div class="publication-img">
-            <img src="adaptive-ml.png">
+            <img src="images/adaptive-ml.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Adaptive machine learning for protein engineering</div>
@@ -132,7 +148,7 @@
         
         <a href="https://dspace.mit.edu/handle/1721.1/139231" class="publication">
           <div class="publication-img">
-            <img src="grid-red-blue.png">
+            <img src="images/grid-red-blue.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Algorithms for understanding and fighting infectious disease</div>
@@ -143,7 +159,7 @@
 
         <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02313-2" class="publication">
           <div class="publication-img">
-            <img src="rainbow-pointilism.png">
+            <img src="images/rainbow-pointilism.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Schema<span style="font-family: Garamond, serif;">:</span> Metric learning enables interpretable synthesis of heterogeneous single-cell modalities</div>
@@ -154,7 +170,7 @@
 
         <a href="https://www.science.org/doi/10.1126/science.abd7331" class="publication">
           <div class="publication-img">
-            <img src="viral-escape.png">
+            <img src="images/viral-escape.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Learning the language of viral evolution and escape</div>
@@ -171,7 +187,7 @@
         
         <a href="https://www.cell.com/cell-systems/fulltext/S2405-4712(20)30364-1" class="publication">
           <div class="publication-img">
-            <img src="leveraging-uncertainty.png">
+            <img src="images/leveraging-uncertainty.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Leveraging uncertainty in machine learning accelerates biological discovery and design</div>
@@ -182,7 +198,7 @@
 
         <a href="http://www.annualreviews.org/eprint/RRDTIVPBCURYJUEYKYDR/full/10.1146/annurev-biodatasci-012220-100601" class="publication">
           <div class="publication-img">
-            <img src="computational-cell.png">
+            <img src="images/computational-cell.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Computational methods for single-cell RNA sequencing</div>
@@ -199,7 +215,7 @@
         
         <a href="https://www.cell.com/cell-systems/fulltext/S2405-4712(19)30152-8" class="publication">
           <div class="publication-img">
-            <img src="rainbow-grid.png">
+            <img src="images/rainbow-grid.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Geometric sketching compactly summarizes the single-cell transcriptomic landscape</div>
@@ -210,7 +226,7 @@
 
         <a href="https://www.nature.com/articles/s41587-019-0113-3" class="publication">
           <div class="publication-img">
-            <img src="scanorama.png">
+            <img src="images/scanorama.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Efficient integration of heterogeneous single-cell transcriptomes using Scanorama</div>
@@ -221,7 +237,7 @@
 
         <a href="https://elifesciences.org/articles/39595" class="publication">
           <div class="publication-img">
-            <img src="diverse-humans.png">
+            <img src="images/diverse-humans.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Fine-mapping cis-regulatory variants in diverse human populations</div>
@@ -238,7 +254,7 @@
         
         <a href="http://science.sciencemag.org/content/362/6412/347" class="publication">
           <div class="publication-img">
-            <img src="private-practical.png">
+            <img src="images/private-practical.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Realizing private and practical pharmacological collaboration</div>
@@ -255,7 +271,7 @@
         
         <a href="http://www.cell.com/cell/abstract/S0092-8674(16)30339-7" class="publication">
           <div class="publication-img">
-            <img src="binding-elements.png">
+            <img src="images/binding-elements.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Pooled ChIP-seq links variation in transcription factor binding to complex disease risk</div>
