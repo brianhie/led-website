@@ -5,7 +5,7 @@
     <title>Publications | Evolutionary Design</title>
     <meta http-equiv="Content-Type" content="text/html"> 
     <meta name="description" content="Laboratory of Evolutionary Design">
-    <meta name="keywords" content="laboratory of evolutionary design, institute x, machine learning, ai, biology">
+    <meta name="keywords" content="laboratory of evolutionary design, stanford university, arc institute, machine learning, ai, biology">
     <meta name="author" content="Brian Hie">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,34 +18,12 @@
 
   <body>
 
-    <div class="navbar">
-      <a href="index.html" class="navbar-logo">
-        <img src="images/logo.svg">
-        <p class="navbar-name">Evolutionary <br/> Design</p>
-      </a>
-
-      <ul class="navbar-list">
-        <li><a href="about.html">About</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="team.html">Team</a></li>
-        <li><a href="join.html">Join us</a></li>
-      </ul>      
-
-      <div class="menu-container">
-        <div id="hamburger-menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div id="dropdown" class="dropdown-content">
-          <a href="about.html">About</a>
-          <a href="publications.html">Publications</a>
-          <a href="team.html">Team</a>
-          <a href="join.html">Join us</a>
-        </div>
-      </div>
-      <script src="ledlab.js"></script>      
-    </div>
+    <div id="navbar"></div>
+    <script>
+      fetch('./navbar.html')
+          .then(response => response.text())
+          .then(data => document.getElementById('navbar').innerHTML = data);
+    </script>
 
     <div class="outer-container">
       <div class="container">
@@ -120,7 +98,7 @@
 
         <a href="https://www.science.org/doi/10.1126/scitranslmed.abk3445" class="publication">
           <div class="publication-img">
-            <img src="images/multicolored.png">
+            <img src="images/balance-of-life.png">
           </div>
           <div class="publication-content">
             <div class="publication-title">Predicting the mutational drivers of future SARS-CoV-2 variants of concern</div>
@@ -280,28 +258,13 @@
           </div>
         </a>
         
-        <footer>
-          <div class="footer-content">
-            <p>Laboratory of Evolutionary Design</p>
-          </div>
-          <div class="footer-content">
-            <a href="">Institute X</a>
-          </div>
-          <!--div class="footer-content">
-              <a href="">Arc Institute</a>
-      </div-->
-      <div class="footer-content">
-        <a href="https://github.com/brianhie">GitHub</a>
+        <footer id="footer"></footer>
+        <script>
+          fetch('./footer.html')
+              .then(response => response.text())
+              .then(data => document.getElementById('footer').innerHTML = data);
+        </script>
       </div>
-      <div class="footer-content">
-        <a href="https://scholar.google.com/citations?user=qT3feHIAAAAJ&hl=en">Google Scholar</a>
-      </div>
-      <div class="footer-content">
-        <a href="https://twitter.com/BrianHie">Twitter</a>
-      </div>
-    </footer>
-
-    </div>
     </div>
   </body>
 </html>

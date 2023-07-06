@@ -5,7 +5,7 @@
     <title>Team | Evolutionary Design</title>
     <meta http-equiv="Content-Type" content="text/html"> 
     <meta name="description" content="Laboratory of Evolutionary Design">
-    <meta name="keywords" content="laboratory of evolutionary design, institute x, machine learning, ai, biology">
+    <meta name="keywords" content="laboratory of evolutionary design, stanford university, arc institute, machine learning, ai, biology">
     <meta name="author" content="Brian Hie">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,35 +18,12 @@
 
   <body>
 
-    <div class="navbar">
-      <a href="index.html" class="navbar-logo">
-        <img src="images/logo.svg">
-        <p class="navbar-name">Evolutionary <br/> Design</p>
-      </a>
-
-      <ul class="navbar-list">
-        <li><a href="about.html">About</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="team.html">Team</a></li>
-        <li><a href="join.html">Join us</a></li>
-      </ul>      
-
-      <div class="menu-container">
-        <div id="hamburger-menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div id="dropdown" class="dropdown-content">
-          <a href="about.html">About</a>
-          <a href="publications.html">Publications</a>
-          <a href="team.html">Team</a>
-          <a href="join.html">Join us</a>
-        </div>
-      </div>
-      <script src="ledlab.js"></script>      
-    </div>
-
+    <div id="navbar"></div>
+    <script>
+      fetch('./navbar.html')
+          .then(response => response.text())
+          .then(data => document.getElementById('navbar').innerHTML = data);
+    </script>
 
     <div class="outer-container">
       <div class="container">
@@ -60,7 +37,7 @@
               </p>
             </div>
             <p class="team-text">
-              Right now, the lab consists of just one person (<a href="http://brianhie.com">Brian</a>) and he needs help! Please consider <a href="join.html">joining the lab</a> to help advance safe and effective biological AI.
+              The lab is ostensibly supervised by <a href="http://brianhie.com">Brian</a> and is actively growing! Please consider <a href="join.html">joining the lab</a> to help advance safe biological AI.
             </p>
             <p class="team-text">
               The lab is also immersed in a highly collaborative scientific environment with access to world-class technology at <a href="">Institute X</a>. If you want to work alongside us (we need friends 😊), consult the <a href="">Institute X careers page</a> for job openings.
@@ -74,30 +51,13 @@
           </div>
         </div>
         
-
-        
-      <footer>
-        <div class="footer-content">
-          <p>Laboratory of Evolutionary Design</p>
-        </div>
-        <div class="footer-content">
-          <a href="">Institute X</a>
-        </div>
-        <!--div class="footer-content">
-            <a href="">Arc Institute</a>
-      </div-->
-      <div class="footer-content">
-        <a href="https://github.com/brianhie">GitHub</a>
+        <footer id="footer"></footer>
+        <script>
+          fetch('./footer.html')
+              .then(response => response.text())
+              .then(data => document.getElementById('footer').innerHTML = data);
+        </script>
       </div>
-      <div class="footer-content">
-        <a href="https://scholar.google.com/citations?user=qT3feHIAAAAJ&hl=en">Google Scholar</a>
-      </div>
-      <div class="footer-content">
-        <a href="https://twitter.com/BrianHie">Twitter</a>
-      </div>
-    </footer>
-
-    </div>
     </div>
   </body>
 </html>

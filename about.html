@@ -3,9 +3,9 @@
 <html>
   <head>
     <title>About | Evolutionary Design</title>
-    <meta http-equiv="Content-Type" content="text/html"> 
+    <meta http-equiv="Content-Type" content="text/html">
     <meta name="description" content="Laboratory of Evolutionary Design">
-    <meta name="keywords" content="laboratory of evolutionary design, institute x, machine learning, ai, biology">
+    <meta name="keywords" content="laboratory of evolutionary design, stanford university, arc institute, machine learning, ai, biology">
     <meta name="author" content="Brian Hie">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,38 +18,16 @@
 
   <body>
 
-    <div class="navbar">
-      <a href="index.html" class="navbar-logo">
-        <img src="images/logo.svg">
-        <p class="navbar-name">Evolutionary <br/> Design</p>
-      </a>
-
-      <ul class="navbar-list">
-        <li><a href="about.html">About</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="team.html">Team</a></li>
-        <li><a href="join.html">Join us</a></li>
-      </ul>      
-
-      <div class="menu-container">
-        <div id="hamburger-menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div id="dropdown" class="dropdown-content">
-          <a href="about.html">About</a>
-          <a href="publications.html">Publications</a>
-          <a href="team.html">Team</a>
-          <a href="join.html">Join us</a>
-        </div>
-      </div>
-      <script src="ledlab.js"></script>      
-    </div>
+    <div id="navbar"></div>
+    <script>
+      fetch('./navbar.html')
+          .then(response => response.text())
+          .then(data => document.getElementById('navbar').innerHTML = data);
+    </script>
 
     <div class="outer-container">
       <div class="container">
-        
+
         <div class="team-container">
           <div class="team-text-block">
             <div class="title2" style="padding: 140px 0 0px 0;">
@@ -59,8 +37,8 @@
             </div>
             <p class="team-text">
               Our mission is to ensure that the AI revolution in biology occurs in a way that benefits humanity.
-              By studying the evolution of pathogens and of the immune response, we aim to develop technologies that counteract pandemic threats.
-              
+              By studying the evolution of pathogens and of the immune response, we aim to develop technologies that counteract biological threats.
+
             </p>
             <p class="team-text">
               We believe that diversity is critical to research and we aim to create a supportive environment in which all lab members are empowered to do incredibly bold science.
@@ -71,10 +49,10 @@
 
           </div>
           <div class="team-image-block">
-            <img src="images/balance-of-life.png">
+            <img src="images/multicolored.png">
           </div>
         </div>
-        
+
         <div class="team-container">
           <div class="team-image-block" id="contact-image">
             <img src="images/edinburgh-castle.jpg"  style="padding-top: 100px;">
@@ -88,7 +66,7 @@
             </div>
             <p class="team-text">
               We are located at <a href="">Institute X</a> in City X, State X, where we work with an incredible set of colleagues and access state-of-the-art computational and experimental resources.
-              This environment also frees us from the pressures of profit, allowing us to totally focus on open science for the benefit of humanity.
+              This environment also frees us from considerations of profit, allowing us to totally focus on open science with long-term impact.
             </p>
             <p class="team-text">
               1 Castlehill <br/>
@@ -100,29 +78,14 @@
             </p>
           </div>
         </div>
-        
-        <footer>
-          <div class="footer-content">
-            <p>Laboratory of Evolutionary Design</p>
-          </div>
-          <div class="footer-content">
-            <a href="">Institute X</a>
-          </div>
-          <!--div class="footer-content">
-              <a href="">Arc Institute</a>
-      </div-->
-      <div class="footer-content">
-        <a href="https://github.com/brianhie">GitHub</a>
-      </div>
-      <div class="footer-content">
-        <a href="https://scholar.google.com/citations?user=qT3feHIAAAAJ&hl=en">Google Scholar</a>
-      </div>
-      <div class="footer-content">
-        <a href="https://twitter.com/BrianHie">Twitter</a>
-      </div>
-    </footer>
 
-    </div>
+        <footer id="footer"></footer>
+        <script>
+          fetch('./footer.html')
+              .then(response => response.text())
+              .then(data => document.getElementById('footer').innerHTML = data);
+        </script>
+      </div>
     </div>
   </body>
 </html>
