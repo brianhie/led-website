@@ -428,10 +428,10 @@ p {
 footer {
     background-color: white;
     color: inherit;
-    padding: 50px 0 300px 0;
     width: 100%;
     bottom: 0;
-    margin-top: 50px;
+    margin-top: 180px;
+    margin-bottom: 300px;
 }
 
 .footer-content {
