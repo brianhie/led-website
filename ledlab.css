@@ -25,6 +25,12 @@ p {
     font-weight: 700;
 }
 
+@media (max-width: 768px) {
+    .title1 {
+        padding-top: 120px;
+    }
+}
+
 .subtitle1 {
     text-align: left;
     font-size: 18px;
@@ -142,7 +148,7 @@ p {
     font-family: "Nanum Myeongjo", "Garamond", serif;
     font-weight: 700;
     font-size: 22px;
-    padding-left: 18px;
+    padding-left: 12px;
 }
 
 .navbar-list {

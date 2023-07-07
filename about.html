@@ -14,16 +14,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="ledlab.css">
     <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <script src="ledlab.js"></script>
   </head>
 
   <body>
-
     <div id="navbar"></div>
-    <script>
-      fetch('./navbar.html')
-          .then(response => response.text())
-          .then(data => document.getElementById('navbar').innerHTML = data);
-    </script>
+    <script>renderNav('./navbar.html')</script>
 
     <div class="outer-container">
       <div class="container">
@@ -44,7 +40,7 @@
               Our work also transcends traditional disciplinary boundaries.
             </p>
 
-            <a href="join.html" class="publication-button" style='font-weight: 400; margin-top: 40px;'>Join us</a>
+            <a href="join" class="publication-button" style='font-weight: 400; margin-top: 40px;'>Join us</a>
 
           </div>
           <div class="team-image-block">
