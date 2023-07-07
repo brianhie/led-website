@@ -34,12 +34,18 @@ p {
 .subtitle1 {
     text-align: left;
     font-size: 18px;
-    margin: 10px 0 40px 0;
+    margin: 0 0 40px 0;
     color: #000000;
     line-height: 150%;
     font-family: "Roboto", "Arial", sans-serif;
     /*font-family: "Nanum Myeongjo", "Garamond", serif;*/
     font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .subtitle1 {
+        margin-top: 8px;
+    }
 }
 
 .subtitle1 a {
@@ -268,13 +274,18 @@ p {
 .publication {
     display: flex;
     align-items: center;
-    margin: 10px 0 10px 0;
     text-decoration: none;
     color: inherit;
-    padding-bottom: 7px;
+    padding: 12px 0 10px 0;
     border-bottom-style: solid;
     border-bottom-width: 0.5px;
     border-bottom-color: #aaaaaa;
+}
+
+@media (max-width: 768px) {
+    .publication {
+        padding: 18px 0 16px 0;
+    }
 }
 
 .publication:hover {
@@ -284,7 +295,7 @@ p {
 .publication:hover .publication-title {
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 2px;
+    /*text-underline-offset: 2px;*/
 }
 
 .publication-img {
@@ -294,7 +305,7 @@ p {
 
 .publication-img img {
     max-width: 100%;
-    height: auto;
+    max-height: auto;
 }
 
 .publication-content {
