@@ -115,7 +115,7 @@ p {
 .title3 {
     text-align: left;
     font-size: 22px;
-    margin: 10px 0 10px 0;
+    margin: 5px 0 5px 0;
     color: #000000;
     font-family: "Nanum Myeongjo", "Garamond", serif;
     font-weight: 700;
@@ -124,7 +124,6 @@ p {
 .text1 {
     text-align: left;
     font-size: 15px;
-    margin: 10px 0 0px 0;
     color: #333333;
     font-family: "Roboto", "Arial", sans-serif;
     font-weight: 300;
