@@ -31,7 +31,6 @@
 
     <div class="outer-container">
       <div class="container">
-
         <div class="team-container">
           <div class="team-text-block">
             <div class="title2" style="padding: 140px 0 0px 0;">
@@ -42,7 +41,7 @@
             <p class="team-text">
               Please consider joining our mission to develop safe and effective biological AI.
               We are primarily motivated by the joy of doing bold, interdisciplinary science.
-              If interested in our mission, you can directly <a href="#stanford-jobs">join our Stanford lab</a> or collaborate with us through a <a href="#arc-jobs">position at Arc Institute</a>.
+              If interested, you can directly <a href="#stanford-jobs">join our Stanford lab</a> or collaborate with us through a <a href="#arc-jobs">position at Arc Institute</a>.
             </p>
 
             <div id="stanford-jobs" class="join-section-anchor"></div>
@@ -55,7 +54,7 @@
               Staff scientist
             </p>
             <p class="join-text">
-              We are recruiting someone to help establish and maintain the experimental research programs in the lab.
+              We are recruiting a scientist to help establish and maintain the lab's experimental wet-bench research programs.
               This person will play an essential role in ensuring that our AI models are safely and effectively translated into real-world impact.
               If you are interested, please <a href="mailto:evodesign-hie@stanford.edu">contact us directly</a> with a CV and a short description of your research background.
             </p>
@@ -75,6 +74,18 @@
               We are recruiting postdocs interested in bridging computational and experimental biology, especially those wishing to develop expertise in machine learning or protein biochemistry.
               Please <a href="mailto:evodesign-hie@stanford.edu">contact us directly</a> with a CV and a short description of how your career plans align with our mission.
             </p>
+
+          </div>
+          <div class="team-image-block">
+            <img src="images/darwin-notebook.jpg" style="padding-top: 420px;" id="join-first-img">
+          </div>
+        </div>
+
+        <div class="team-container">
+          <div class="team-image-block"  id="join-second-img">
+            <img src="images/wallace-butterflies-cropped.jpg" style="padding-top: 50px;">
+          </div>
+          <div class="team-text-block" id="join-second-text">
 
             <div id="arc-jobs" class="join-section-anchor"></div>
             
@@ -99,17 +110,13 @@
             </p>
 
           </div>
-          <div class="team-image-block">
-            <img src="images/wallace-butterflies-cropped.jpg">
-            <img src="images/darwin-notebook.jpg" style="padding-top: 50px;" id="join-second-img">
-          </div>
         </div>
         
         <footer id="footer"></footer>
         <script>
           fetch('./footer.html')
-              .then(response => response.text())
-              .then(data => document.getElementById('footer').innerHTML = data);
+    .then(response => response.text())
+    .then(data => document.getElementById('footer').innerHTML = data);
         </script>
       </div>
     </div>
