@@ -424,9 +424,16 @@ p {
     }
 }
 
+.join-section-anchor {
+    display: block;
+    position: relative;
+    top: -40px;
+    visibility: hidden;
+}
+
 .join-subtitle {
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     margin: 10px 0 5px 0;
     padding-top: 30px;
     color: #000000;
