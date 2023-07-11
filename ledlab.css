@@ -424,6 +424,55 @@ p {
     }
 }
 
+.join-section-anchor {
+    display: block;
+    position: relative;
+    top: -40px;
+    visibility: hidden;
+}
+
+.join-subtitle {
+    text-align: left;
+    font-size: 20px;
+    margin: 10px 0 5px 0;
+    padding-top: 30px;
+    color: #000000;
+    font-family: "Nanum Myeongjo", "Garamond", serif;
+    font-weight: 700;
+}
+
+.join-text {
+    text-align: left;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0px;
+    color: #000000;
+    line-height: 160%;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 300;
+}
+
+@media (min-width: 768px) {
+    #join-second-text {
+        padding-left: 140px;
+        padding-top: 25px;
+    }
+
+    #join-second-img {
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    #join-first-img {
+        display: none;
+    }
+
+    #join-second-text {
+        padding-left: 0;
+    }
+}
+
 footer {
     background-color: white;
     color: inherit;
