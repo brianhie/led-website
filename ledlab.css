@@ -422,7 +422,7 @@ p {
 .team-image-block img {
     width: 100%;
     height: auto;
-    padding-top: 140px;
+    padding-top: 160px;
 }
 
 @media (max-width: 768px) {
