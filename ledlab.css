@@ -83,6 +83,10 @@ p {
     .subtitle2 {
         font-size: 16px;
     }
+
+    .subtitle2 br {
+        display: none;
+    }
 }
 
 .banner-row {
