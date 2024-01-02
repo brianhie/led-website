@@ -394,6 +394,43 @@ p {
     }
 }
 
+.team-subtitle {
+    text-align: left;
+    font-size: 25px;
+    margin: 10px 0 5px 0;
+    color: #000000;
+    font-family: "Nanum Myeongjo", "Garamond", serif;
+    /*font-family: "Roboto", "Arial", sans-serif;*/
+    font-weight: 300;
+}
+
+.team-list {
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+    /*padding-top: 30px;*/
+    color: #000000;
+    line-height: 110%;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 300;
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+.team-list li {
+    padding-top: 20px;
+}
+
+.team-sublist {
+    padding-inline-start: 14px;
+    font-size: 16px;
+
+}
+
+.team-sublist li {
+    padding-top: 5px;
+}
+
 .team-text {
     text-align: left;
     font-size: 18px;
