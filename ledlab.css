@@ -16,6 +16,10 @@ p {
     margin-inline-end: 0px;
 }
 
+.dummy-header {
+    display: none;
+}
+
 .title1 {
     text-align: left;
     font-size: 48px;
