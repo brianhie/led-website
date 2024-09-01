@@ -148,37 +148,37 @@ h4 + p {
   text-align: center;
 }
 
-/*.team-cell:nth-child(4n + 1) {
+.team-cell:nth-child(4n + 1) {
   border-left: 0px;
   border-right: 0px;
 }
 
 .team-cell:nth-child(4n + 2) {
-  border-left: 1px;
+  /*border-left: 1px;
   border-right: 0px;
   border-style: solid;
-  border-color: #cccccc;
+  border-color: #cccccc;*/
 }
 
 .team-cell:nth-child(4n + 3) {
-  border-left: 1px;
+  /*border-left: 1px;
   border-right: 0px;
   border-style: solid;
-  border-color: #cccccc;
+  border-color: #cccccc;*/
 }
 
 .team-cell:nth-child(4n + 4) {
-  border-left: 1px;
+  /*border-left: 1px;
   border-right: 0px;
   border-style: solid;
-  border-color: #cccccc;
+  border-color: #cccccc;*/
 }*/
 
 
 @media screen and (max-width: 1024px) {
   .team-cell {
     width: 30%;
-    height: 28rem;
+    padding-top: 40px;
   }
 
   .team-cell > p {
@@ -196,24 +196,24 @@ h4 + p {
   }
 
   .team-cell:nth-child(3n + 2) {
-    border-left: 1px;
+    /*border-left: 1px;
     border-right: 0px;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #cccccc;*/
   }
 
   .team-cell:nth-child(3n + 3) {
-    border-left: 1px;
+    /*border-left: 1px;
     border-right: 0px;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #cccccc;*/
   }
 }
 
-@media screen and ((max-device-width: 768px) or (max-width: 768px)){
+@media screen and ((max-device-width: 900px) or (max-width: 900px)){
   .team-cell {
     width: 45%;
-    height: 30rem;
+    padding-top: 40px;
   }
 
   .team-cell > p {
@@ -232,10 +232,10 @@ h4 + p {
   }
 
   .team-cell:nth-child(even) {
-    border-left: 1px;
+    /*border-left: 1px;
     border-right: 0px;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #cccccc;*/
   }
 }
 
