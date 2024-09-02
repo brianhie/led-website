@@ -60,7 +60,6 @@
 
 .team-text-block {
     flex: 1;
-    padding-right: 70px;
 }
 
 @media (max-width: 768px) {
