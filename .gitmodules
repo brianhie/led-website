@@ -1,0 +1,3 @@
+[submodule "betatestsyngenome"]
+	path = betatestsyngenome
+	url = git@github.com:brianhie/syngenome.git
