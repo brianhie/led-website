@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EQ6FCXS2D2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-EQ6FCXS2D2');
+    </script>
+    <title>Resources | Evolutionary Design</title>
+    <meta http-equiv="Content-Type" content="text/html"> 
+    <meta name="description" content="Laboratory of Evolutionary Design">
+    <meta name="keywords" content="brian hie, laboratory of evolutionary design, stanford university, arc institute, machine learning, ai, biology">
+    <meta name="author" content="Brian Hie">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="ledlab.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.svg">
+    <script src="ledlab.js"></script>
+  </head>
+
+  <body>
+    <div id="navbar"></div>
+    <script>renderNav('./navbar.html')</script>
+
+    <div class="outer-container">
+      <div class="container">
+        
+        <div class="title2" style="padding: 140px 0 0px 0;">
+          <p>
+            Resources
+          </p>
+        </div>
+
+        <div class="resource-subtitle">
+          <p>
+            Code, model parameters, and datasets produced by our research efforts.
+          </p>
+        </div>
+          
+        <a href="https://github.com/evo-design/evo/" class="resource">
+          <div class="resource-img">
+            <img src="images/evo-1.jpg">
+          </div>
+          <div class="resource-content">
+            <div class="resource-type">Model</div>
+            <div class="resource-title">Evo</div>
+            <div class="resource-description">A biological sequence model that enables prediction and design tasks from the molecular to genome scale</div>
+            <div class="resource-publication">Nguyen et al., Science (2024)</div>
+          </div>
+        </a>
+        
+        <a href="https://evodesign.org/syngenome/" class="resource">
+          <div class="resource-img">
+            <img src="images/logo_dna_green.svg">
+          </div>
+          <div class="resource-content">
+            <div class="resource-type">Dataset</div>
+            <div class="resource-title">SynGenome</div>
+            <div class="resource-description">A first-of-its-kind genomics database containing over 120 billion base pairs of AI-generated DNA</div>
+            <div class="resource-publication">Merchant et al., bioRxiv (2024)</div>
+          </div>
+        </a>
+        
+        <a href="https://huggingface.co/datasets/LongSafari/open-genome" class="resource">
+          <div class="resource-img">
+            <img src="images/beige-geometric.png">
+          </div>
+          <div class="resource-content">
+            <div class="resource-type">Dataset</div>
+            <div class="resource-title">OpenGenome</div>
+            <div class="resource-description">300 billion base pairs of prokaryotic and phage genomes used to train the Evo model</div>
+            <div class="resource-publication">Nguyen et al., Science (2024)</div>
+          </div>
+        </a>
+        
+        <footer id="footer"></footer>
+        <script>
+          fetch('./footer.html')
+              .then(response => response.text())
+              .then(data => document.getElementById('footer').innerHTML = data);
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
