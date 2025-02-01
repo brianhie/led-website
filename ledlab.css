@@ -185,7 +185,7 @@ p {
     justify-content: flex-end;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .navbar-list {
         display: none;
     }
@@ -218,7 +218,7 @@ p {
     z-index: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 801px) {
     .menu-container {
         display: none;
     }
@@ -392,19 +392,13 @@ p {
     align-items: center;
     text-decoration: none;
     color: inherit;
-    padding: 30px 0 26px 0;
+    padding: 30px 30px 26px 30px;
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
     margin-bottom: 30px;
     /*border-bottom-style: solid;
     border-bottom-width: 0.5px;
     border-bottom-color: #aaaaaa;*/
     border-radius: 5px;
-}
-
-@media (max-width: 768px) {
-    .resource {
-        padding: 18px 0 16px 0;
-    }
 }
 
 .resource:hover {
@@ -427,7 +421,8 @@ p {
 
 .resource-img {
     flex: 0 0 150px;
-    margin: 0 25px 0 30px;
+    margin: 0;
+    margin-right: 30px;
 }
 
 .resource-img img {
@@ -440,6 +435,27 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .resource {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 30px 26px 30px;
+    }
+
+    .resource-img {
+        margin: 0 0 20px 0;  /* Adjust margin for vertical layout */
+        flex: 0 0 auto;      /* Remove fixed width constraint */
+        width: 80%;         /* Make image responsive */
+        max-width: 200px;   /* Prevent image from getting too large */
+    }
+    
+    .resource-content {
+        width: 100%;        /* Full width for content */
+        padding: 0 20px;    /* Add some padding on the sides */
+    }
 }
 
 .resource-title {
