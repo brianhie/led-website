@@ -22,13 +22,12 @@ p {
 
 .title1 {
     text-align: left;
-    font-size: 60px;
+    font-size: 48px;
     padding: 96px 0 0 0;
     color: #000000;
-    font-family: "Cormorant", "Garamond", serif;
-    font-weight: 400;
-    transform: scaleX(0.97);
-    transform-origin: left;
+    font-family: "Nanum Myeongjo", "Garamond", serif;
+    word-spacing: -0.75em;
+    font-weight: 700;
 }
 
 @media (max-width: 1300px) {
@@ -44,7 +43,7 @@ p {
     color: #000000;
     line-height: 150%;
     font-family: "Roboto", "Arial", sans-serif;
-    /*font-family: "Cormorant Garamond", "Garamond", serif;*/
+    /*font-family: "Nanum Myeongjo", "Garamond", serif;*/
     font-weight: 500;
 }
 
@@ -71,7 +70,8 @@ p {
     margin: 14px 0 14px 0;
     padding-top: 40px;
     color: #000000;
-    font-family: "Cormorant Garamond", "Garamond", serif;
+    font-family: "Nanum Myeongjo", "Garamond", serif;
+    word-spacing: -0.75em;
     font-weight: 400;
 }
 
@@ -134,7 +134,8 @@ p {
     font-size: 22px;
     margin: 8px 0 8px 0;
     color: #000000;
-    font-family: "Cormorant Garamond", "Garamond", serif;
+    font-family: "Nanum Myeongjo", "Garamond", serif;
+    word-spacing: -0.75em;
     font-weight: 700;
 }
 
@@ -173,7 +174,8 @@ p {
 }
 
 .navbar-name {
-    font-family: "Cormorant Garamond", "Garamond", serif;
+    font-family: "Nanum Myeongjo", "Garamond", serif;
+    word-spacing: -0.75em;
     font-weight: 700;
     font-size: 22px;
     padding-left: 12px;
@@ -321,6 +323,12 @@ p {
     /*text-underline-offset: 2px;*/
 }
 
+.publication:hover .publication-title-main {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    /*text-underline-offset: 2px;*/
+}
+
 .publication-img {
     flex: 0 0 100px;
     margin-right: 20px;
@@ -338,9 +346,18 @@ p {
     justify-content: center;
 }
 
-.publication-title {
+.publication-title-main {
     margin-bottom: 10px;
-    font-family: "Cormorant Garamond", "Garamond", serif;
+    font-family: "Nanum Myeongjo", "Garamond", serif;
+    word-spacing: -0.75em;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.publication-title {
+    margin-bottom: 4px;
+    font-family: "Nanum Myeongjo", "Garamond", serif;
+    word-spacing: -0.75em;
     font-weight: 700;
     font-size: 20px;
 }
@@ -385,7 +402,8 @@ p {
     font-size: 25px;
     padding: 35px 0 5px 0;
     color: #000000;
-    font-family: "Cormorant Garamond", "Garamond", serif;
+    font-family: "Nanum Myeongjo", "Garamond", serif;
+    word-spacing: -0.75em;
     font-weight: 400;
 }
 
@@ -462,7 +480,8 @@ p {
 
 .resource-title {
     margin-bottom: 10px;
-    font-family: "Cormorant Garamond", "Garamond", serif;
+    font-family: "Nanum Myeongjo", "Garamond", serif;
+    word-spacing: -0.75em;
     font-weight: 700;
     font-size: 28px;
 }
@@ -500,7 +519,8 @@ p {
     margin: 10px 0 5px 0;
     padding-top: 30px;
     color: #000000;
-    font-family: "Cormorant Garamond", "Garamond", serif;
+    font-family: "Nanum Myeongjo", "Garamond", serif;
+    word-spacing: -0.75em;
     font-weight: 700;
 }
 
@@ -550,7 +570,8 @@ footer {
     color: inherit;
     text-align: left;
     font-size: 16px;
-    font-family: "Cormorant Garamond", "Garamond", serif;
+    font-family: "Nanum Myeongjo", "Garamond", serif;
+    word-spacing: -0.75em;
     font-weight: 700;
     font-size: 15px;
 }
@@ -582,7 +603,8 @@ footer {
     font-size: 25px;
     margin: 10px 0 5px 0;
     color: #000000;
-    font-family: "Cormorant Garamond", "Garamond", serif;
+    font-family: "Nanum Myeongjo", "Garamond", serif;
+    word-spacing: -0.75em;
     /*font-family: "Roboto", "Arial", sans-serif;*/
     font-weight: 300;
 }
