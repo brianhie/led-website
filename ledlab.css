@@ -25,7 +25,7 @@ p {
     font-size: 48px;
     padding: 96px 0 0 0;
     color: #000000;
-    font-family: "Nanum Myeongjo", "Garamond", serif;
+    font-family: "Cormorant Garamond", "Garamond", serif;
     font-weight: 700;
 }
 
@@ -42,7 +42,7 @@ p {
     color: #000000;
     line-height: 150%;
     font-family: "Roboto", "Arial", sans-serif;
-    /*font-family: "Nanum Myeongjo", "Garamond", serif;*/
+    /*font-family: "Cormorant Garamond", "Garamond", serif;*/
     font-weight: 500;
 }
 
@@ -69,7 +69,7 @@ p {
     margin: 14px 0 14px 0;
     padding-top: 40px;
     color: #000000;
-    font-family: "Nanum Myeongjo", "Garamond", serif;
+    font-family: "Cormorant Garamond", "Garamond", serif;
     font-weight: 400;
 }
 
@@ -132,7 +132,7 @@ p {
     font-size: 22px;
     margin: 8px 0 8px 0;
     color: #000000;
-    font-family: "Nanum Myeongjo", "Garamond", serif;
+    font-family: "Cormorant Garamond", "Garamond", serif;
     font-weight: 700;
 }
 
@@ -171,7 +171,7 @@ p {
 }
 
 .navbar-name {
-    font-family: "Nanum Myeongjo", "Garamond", serif;
+    font-family: "Cormorant Garamond", "Garamond", serif;
     font-weight: 700;
     font-size: 22px;
     padding-left: 12px;
@@ -338,7 +338,7 @@ p {
 
 .publication-title {
     margin-bottom: 10px;
-    font-family: "Nanum Myeongjo", "Garamond", serif;
+    font-family: "Cormorant Garamond", "Garamond", serif;
     font-weight: 700;
     font-size: 20px;
 }
@@ -383,7 +383,7 @@ p {
     font-size: 25px;
     padding: 35px 0 5px 0;
     color: #000000;
-    font-family: "Nanum Myeongjo", "Garamond", serif;
+    font-family: "Cormorant Garamond", "Garamond", serif;
     font-weight: 400;
 }
 
@@ -460,7 +460,7 @@ p {
 
 .resource-title {
     margin-bottom: 10px;
-    font-family: "Nanum Myeongjo", "Garamond", serif;
+    font-family: "Cormorant Garamond", "Garamond", serif;
     font-weight: 700;
     font-size: 28px;
 }
@@ -498,7 +498,7 @@ p {
     margin: 10px 0 5px 0;
     padding-top: 30px;
     color: #000000;
-    font-family: "Nanum Myeongjo", "Garamond", serif;
+    font-family: "Cormorant Garamond", "Garamond", serif;
     font-weight: 700;
 }
 
@@ -548,7 +548,7 @@ footer {
     color: inherit;
     text-align: left;
     font-size: 16px;
-    font-family: "Nanum Myeongjo", "Garamond", serif;
+    font-family: "Cormorant Garamond", "Garamond", serif;
     font-weight: 700;
     font-size: 15px;
 }
@@ -580,7 +580,7 @@ footer {
     font-size: 25px;
     margin: 10px 0 5px 0;
     color: #000000;
-    font-family: "Nanum Myeongjo", "Garamond", serif;
+    font-family: "Cormorant Garamond", "Garamond", serif;
     /*font-family: "Roboto", "Arial", sans-serif;*/
     font-weight: 300;
 }
