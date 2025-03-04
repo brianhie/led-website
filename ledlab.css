@@ -22,11 +22,13 @@ p {
 
 .title1 {
     text-align: left;
-    font-size: 48px;
+    font-size: 60px;
     padding: 96px 0 0 0;
     color: #000000;
-    font-family: "Cormorant Garamond", "Garamond", serif;
-    font-weight: 700;
+    font-family: "Cormorant", "Garamond", serif;
+    font-weight: 400;
+    transform: scaleX(0.97);
+    transform-origin: left;
 }
 
 @media (max-width: 1300px) {
