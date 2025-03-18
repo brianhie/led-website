@@ -26,7 +26,7 @@ p {
     padding: 96px 0 0 0;
     color: #000000;
     font-family: "Nanum Myeongjo", "Garamond", serif;
-    word-spacing: -0.75em;
+    /*word-spacing: -0.75em;*/
     font-weight: 700;
 }
 
@@ -71,7 +71,7 @@ p {
     padding-top: 40px;
     color: #000000;
     font-family: "Nanum Myeongjo", "Garamond", serif;
-    word-spacing: -0.75em;
+    /*word-spacing: -0.75em;*/
     font-weight: 400;
 }
 
@@ -135,7 +135,7 @@ p {
     margin: 8px 0 8px 0;
     color: #000000;
     font-family: "Nanum Myeongjo", "Garamond", serif;
-    word-spacing: -0.75em;
+    /*word-spacing: -0.75em;*/
     font-weight: 700;
 }
 
@@ -175,7 +175,7 @@ p {
 
 .navbar-name {
     font-family: "Nanum Myeongjo", "Garamond", serif;
-    word-spacing: -0.75em;
+    /*word-spacing: -0.75em;*/
     font-weight: 700;
     font-size: 22px;
     padding-left: 12px;
@@ -349,7 +349,7 @@ p {
 .publication-title-main {
     margin-bottom: 10px;
     font-family: "Nanum Myeongjo", "Garamond", serif;
-    word-spacing: -0.75em;
+    /*word-spacing: -0.75em;*/
     font-weight: 700;
     font-size: 21px;
 }
@@ -357,7 +357,7 @@ p {
 .publication-title {
     margin-bottom: 4px;
     font-family: "Nanum Myeongjo", "Garamond", serif;
-    word-spacing: -0.75em;
+    /*word-spacing: -0.75em;*/
     font-weight: 700;
     font-size: 20px;
 }
@@ -403,7 +403,7 @@ p {
     padding: 35px 0 5px 0;
     color: #000000;
     font-family: "Nanum Myeongjo", "Garamond", serif;
-    word-spacing: -0.75em;
+    /*word-spacing: -0.75em;*/
     font-weight: 400;
 }
 
@@ -481,7 +481,7 @@ p {
 .resource-title {
     margin-bottom: 10px;
     font-family: "Nanum Myeongjo", "Garamond", serif;
-    word-spacing: -0.75em;
+    /*word-spacing: -0.75em;*/
     font-weight: 700;
     font-size: 28px;
 }
@@ -520,7 +520,7 @@ p {
     padding-top: 30px;
     color: #000000;
     font-family: "Nanum Myeongjo", "Garamond", serif;
-    word-spacing: -0.75em;
+    /*word-spacing: -0.75em;*/
     font-weight: 700;
 }
 
@@ -571,7 +571,7 @@ footer {
     text-align: left;
     font-size: 16px;
     font-family: "Nanum Myeongjo", "Garamond", serif;
-    word-spacing: -0.75em;
+    /*word-spacing: -0.75em;*/
     font-weight: 700;
     font-size: 15px;
 }
@@ -604,7 +604,7 @@ footer {
     margin: 10px 0 5px 0;
     color: #000000;
     font-family: "Nanum Myeongjo", "Garamond", serif;
-    word-spacing: -0.75em;
+    /*word-spacing: -0.75em;*/
     /*font-family: "Roboto", "Arial", sans-serif;*/
     font-weight: 300;
 }
