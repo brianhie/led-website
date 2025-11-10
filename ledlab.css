@@ -552,9 +552,9 @@ p {
 }
 
 @media (max-width: 768px) {
-    #join-first-img {
+    /*#join-first-img {
         display: none;
-    }
+    }*/
 
     #join-second-text {
         padding-left: 0;
