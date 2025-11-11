@@ -157,6 +157,7 @@ p {
     font-family: "Roboto", "Arial", sans-serif;
     font-weight: 400;
     padding: 12px 0 12px 0;
+    margin-top: env(safe-area-inset-top);
     display: flex;
     justify-content: space-between;
 }
@@ -219,6 +220,7 @@ p {
     top: 0;
     right: 0;
     padding: 10px 25px 10px 25px;
+    margin-top: env(safe-area-inset-top);
     z-index: 1;
 }
 
