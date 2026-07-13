@@ -553,10 +553,14 @@ p {
     }
 }
 
+#join-first-img {
+    margin-top: 70px;
+}
+
 @media (max-width: 768px) {
-    /*#join-first-img {
-        display: none;
-    }*/
+    #join-first-img {
+        margin-top: 0;
+    }
 
     #join-second-text {
         padding-left: 0;
