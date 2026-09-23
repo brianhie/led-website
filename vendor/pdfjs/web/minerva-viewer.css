@@ -1,0 +1,16 @@
+/* Keep the mobile manuscript viewer visually consistent with the site. */
+:root {
+  --body-bg-color: #f5f5f5;
+  --toolbar-bg-color: #fff;
+  --toolbar-border-color: #ddd;
+  --main-color: #171717;
+}
+
+#viewerContainer {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* This embedded viewer is for reading the manuscript. */
+#editorModeButtons {
+  display: none !important;
+}
